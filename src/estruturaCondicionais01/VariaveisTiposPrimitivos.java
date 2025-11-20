@@ -17,7 +17,7 @@ public class VariaveisTiposPrimitivos {
 		
 		// TIPOS NUMÉRICOS INTEIROS:
 		
-			// TIPO: by
+			// TIPO: byte
 				// TAMANHO: 8 BITS
 				// VALORES: -128 A 127
 				// VALOR PADRÃO: 0
