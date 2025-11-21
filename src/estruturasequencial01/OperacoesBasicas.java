@@ -1,4 +1,4 @@
-package estruturaCondicionais01;
+package estruturasequencial01;
 
 import java.util.Locale;
 

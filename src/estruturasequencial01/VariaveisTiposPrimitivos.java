@@ -1,4 +1,4 @@
-package estruturaCondicionais01;
+package estruturasequencial01;
 
 public class VariaveisTiposPrimitivos {
 
@@ -10,6 +10,9 @@ public class VariaveisTiposPrimitivos {
 		int idade = 25;
 		double altura = 1.66;
 		char sexo;
+		sexo = 'F';
+		
+		System.out.println(idade + altura + sexo);
 		
 		// UMA VARIÁVEL POSSUI: NOME (OU IDENTIFICADOR) - TIPO - VALOR - ENDEREÇO
 		
