@@ -86,6 +86,22 @@ public class EntradaDeDados {
 		
 		String s1, s2, s3;
 		
+		
+		/* 
+		
+			Quando você usa um comando de
+			leitura diferente do nextLine() e
+			dá alguma quebra de linha, essa
+			quebra de linha fica "pendente"
+			na entrada padrão.
+			Se você então fizer um nextLine(),
+			aquela quebra de linha pendente
+			será absorvida pelo nextLine().
+		
+			Solução:
+			Faça um nextLine() extra antes de fazer o nextLine() de seu interesse.
+		
+		*/
 		sc.nextLine(); // <<< MUITO IMPORTANTE: limpa o buffer!
 		
 		s1 = sc.nextLine();
